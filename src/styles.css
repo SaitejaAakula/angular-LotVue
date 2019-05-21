@@ -10,6 +10,7 @@ p {
   width:100%;
   height:100vh;
   background-color:#0b346c;
+  float:left;
 }
 .Login-Wrapper{
   /* min-width: 300px; */
@@ -48,5 +49,15 @@ p {
     width:50%;
     margin-left:25%;
     margin-right:25%;
+  }
+}
+@media only screen and (max-width: 475px){
+  .Login-Btn{
+    width:100% !important;
+    margin-right:0px !important;
+  }
+  .Reset-Btn{
+    width:100% !important;
+    margin-left:0px !important;
   }
 }
