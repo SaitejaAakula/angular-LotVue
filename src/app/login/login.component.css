@@ -1,0 +1,67 @@
+.Text-Props{
+  width: calc(100% - 12px);
+    padding: 10px 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #bcbdbf;
+    margin-left: 6px;
+    margin-top: 6px;
+    color:#666;
+}
+.Login-Title{
+    text-align: center;
+    color: #888;
+    font-family: sans-serif;
+    line-height: 40px;
+    font-size: 14px;
+
+}
+.Txt-Span{
+  width:100%; 
+  float:left; 
+  background-color:#f9f9f9; 
+  height:50px;
+  border-radius: 10px;
+  margin-bottom:25px;
+  transition:1s;
+}
+.Btn-Span{
+  width: 90%;
+  text-align: right;
+  float: left;
+  margin-left: 4%;
+}
+.Reset-Btn{
+  width:100px; float:left; height: 40px; margin-left: 6px; border-radius:5px;font-size: 16px; background-color:#ccc; color:#fff; border:none;transition: 1s; cursor: pointer; 
+}
+.Login-Btn{
+  width:100px; float:right; height: 40px; margin-right: 6px; border-radius:5px;font-size: 16px; background-color:#0b346c; color:#fff; border:none;transition: 1s; cursor: pointer; 
+}
+.Btn-Span a{
+  color: #0b346c;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: sans-serif;
+  text-transform: uppercase;     
+  margin-top: 20px;
+  float: right;
+}
+.Login-Btn:disabled{
+  cursor:not-allowed;
+  opacity: 0.5;
+}
+.Login-Btn:hover{
+  opacity:0.7;
+}
+.Reset-Btn:hover{
+  opacity:0.7;
+}
+.Error-Msg{
+  font-size: 12px;
+    float: right;
+    color: red;
+    font-family: sans-serif;
+    line-height: 35px;
+}
